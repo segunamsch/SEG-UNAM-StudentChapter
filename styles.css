@@ -244,6 +244,7 @@ body {
 }
 .carrusel-slide {
     display: none; /* Las diapositivas se ocultarán por defecto y JavaScript las mostrará */
+    position: relative;
 }
 .carrusel-slide img {
     width: 100%;
@@ -439,6 +440,19 @@ body {
     text-align: center;
     margin-top: 30px;
     padding: 20px 0;
+}
+.photo-credit {
+    position: absolute; /* Posicionamiento absoluto respecto al carrusel-slide */
+    bottom: 15px;      /* Distancia desde el borde inferior */
+    right: 15px;       /* Distancia desde el borde derecho */
+    z-index: 2;        /* Asegura que esté por encima de la imagen y el caption */
+    
+    /* Estilo sutil y legible */
+    color: rgba(255, 255, 255, 0.85); /* Blanco semi-transparente para que resalte */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.8em; /* Letra pequeña para no ser intrusivo */
 }
 
 
