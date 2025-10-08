@@ -454,6 +454,16 @@ body {
     border-radius: 3px;
     font-size: 0.8em; /* Letra pequeña para no ser intrusivo */
 }
+.team-member .contact-email a {
+    color: #00447c;      /* Color de acento (ej. Azul UNAM) */
+    text-decoration: none; /* Quita el subrayado */
+    font-weight: normal;
+}
+
+.team-member .contact-email a:hover {
+    text-decoration: underline; /* Opcional: solo subraya al pasar el ratón */
+}
+
 
 
 
