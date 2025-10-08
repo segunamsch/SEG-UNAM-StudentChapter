@@ -6,7 +6,6 @@ body {
     line-height: 1.6;
 }
 
-/* Encabezado */
 .header {
     display: flex;
     justify-content: space-between;
@@ -43,7 +42,6 @@ body {
     margin-left: 15px;
 }
 
-/* Barra de navegación */
 .navbar {
     background-color: #00447c;
     padding: 10px 0;
@@ -66,7 +64,6 @@ body {
     background-color: #002e53;
 }
 
-/* Contenido Principal */
 .main-content {
     padding: 20px;
 }
@@ -85,14 +82,13 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Pie de página */
 .footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
 }
-/* Sección de Equipo */
+
 .team-section {
     padding: 50px 20px;
     text-align: center;
@@ -124,7 +120,7 @@ body {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 50%; /* Esto hace que la imagen sea circular */
+    border-radius: 50%; 
     border: 3px solid #00447c;
     margin-bottom: 15px;
 }
@@ -142,7 +138,7 @@ body {
     font-size: 0.9em;
     color: #555;
 }
-/* Sección de Actividades */
+
 .activities-section {
     padding: 50px 20px;
     text-align: center;
@@ -158,7 +154,7 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    overflow: hidden; /* Esto asegura que la imagen no se salga de la tarjeta */
+    overflow: hidden; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .activity-card:hover {
@@ -199,7 +195,7 @@ body {
 .read-more:hover {
     background-color: #002e53;
 }
-/* Sección de Contacto */
+
 .contact-section {
     padding: 50px 20px;
     text-align: center;
@@ -229,28 +225,27 @@ body {
 
 }
 
-/* Carrusel */
 .carrusel-section {
-    padding: 20px 0; /* Padding superior e inferior para separar del resto */
+    padding: 20px 0; 
     background-color: #f0f0f0;
 }
 .carrusel-container {
-    max-width: 1000px; /* Ancho máximo del carrusel */
+    max-width: 1000px; 
     position: relative;
     margin: auto;
     border-radius: 10px;
-    overflow: hidden; /* Importante para que las imágenes no se salgan */
+    overflow: hidden; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 .carrusel-slide {
-    display: none; /* Las diapositivas se ocultarán por defecto y JavaScript las mostrará */
+    display: none; 
     position: relative;
 }
 .carrusel-slide img {
     width: 100%;
-    height: 450px; /* Altura fija para todas las imágenes del carrusel */
-    object-fit: cover; /* Recorta la imagen para que cubra el espacio sin distorsionarse */
-    filter: brightness(0.6); /* Oscurece la imagen para que el texto sea más legible */
+    height: 450px; 
+    object-fit: cover; 
+    filter: brightness(0.6); 
 }
 .carrusel-caption {
     position: absolute;
@@ -259,7 +254,7 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    z-index: 1; /* Asegura que el texto esté sobre la imagen */
+    z-index: 1;
 }
 .carrusel-caption h2 {
     font-size: 2.5em;
@@ -269,7 +264,6 @@ body {
     font-size: 1.2em;
 }
 
-/* Botones de navegación (Previous y Next) */
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -283,7 +277,7 @@ body {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    background-color: rgba(0,0,0,0.5); /* Fondo semitransparente */
+    background-color: rgba(0,0,0,0.5); 
 }
 .next {
     right: 0;
@@ -293,7 +287,6 @@ body {
     background-color: rgba(0,0,0,0.8);
 }
 
-/* Indicadores de puntos */
 .dot-container {
     text-align: center;
     margin-top: 10px;
@@ -312,7 +305,6 @@ body {
     background-color: #717171;
 }
 
-/* Animación de desvanecimiento */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -322,14 +314,12 @@ body {
     to {opacity: 1}
 }
 
-/* Contenedor de los botones */
 .action-buttons-bar {
-    text-align: center; /* Centra los botones dentro de la barra */
-    margin-top: 30px; /* Separación de la barra de texto superior */
+    text-align: center; 
+    margin-top: 30px; 
     padding: 10px 0;
 }
 
-/* Estilos base de los botones (<a>) */
 .btn {
     display: inline-block;
     font-weight: bold;
@@ -343,21 +333,19 @@ body {
     text-decoration: none !important; 
 }
 
-/* Estilo para el botón principal (UNAM/Capítulo) */
 .btn-chapter {
     background-color: #f0f0f0;
     color: #FFC72C !important; 
     border: 2px solid #001E44;
 }
 
-/* Estilo para el botón secundario (SEG Global) */
 .btn-seg {
     background-color: #f0f0f0;
     color: #FFC72C !important; 
     border: 2px solid #001E44;
 }
 
-/* Efecto al pasar el ratón (Hover) */
+
 .btn-chapter:hover {
     background-color: #002e53; 
     color: #FFC72C;
@@ -368,42 +356,36 @@ body {
     color: #FFC72C;
 }
 
-/*
- * 1. Estilos Generales de la Sección
- */
+
 .who-we-are {
-    max-width: 900px; /* Limita el ancho para que las líneas de texto sean legibles */
-    margin: 50px auto; /* Centra la sección horizontalmente */
+    max-width: 900px; 
+    margin: 50px auto; 
     padding: 20px;
-    text-align: center; /* Alineación por defecto para títulos */
+    text-align: center; 
 }
 
 .who-we-are h2, .who-we-are h3 {
-    color: #001E44; /* Azul UNAM */
+    color: #001E44; 
     margin-top: 40px;
     margin-bottom: 20px;
 }
 
-/* Párrafo Intro y Bloques de Texto (alineación a la izquierda) */
 .who-we-are .intro-text, 
 .unam-block p, 
 .call-to-action p {
-    text-align: justify; /* Justifica el texto para un bloque limpio */
+    text-align: justify; 
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
-    line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+    line-height: 1.6; 
 }
 
-/*
- * 2. Bloque de Misión Distintivo
- */
 .mission-block {
-    background-color: #f0f4ff; /* Fondo muy suavemente azul claro para destacar */
+    background-color: #f0f4ff; 
     padding: 30px 20px;
     margin: 40px 0;
     border-radius: 8px;
-    text-align: left; /* Alineamos el contenido de la misión a la izquierda */
+    text-align: left; 
 }
 
 .mission-block h3 {
@@ -417,54 +399,47 @@ body {
 }
 
 .mission-list li {
-    margin-bottom: 20px; /* Espacio vertical entre cada punto */
-    border-left: 4px solid #FFC72C; /* Línea vertical ORO UNAM como acento */
+    margin-bottom: 20px; 
+    border-left: 4px solid #FFC72C; 
     padding-left: 15px;
     line-height: 1.5;
 }
 
 .mission-list li strong {
-    display: block; /* Título en negrita en su propia línea */
+    display: block; 
     font-size: 1.1em;
-    color: #001E44; /* Azul UNAM para el título del punto */
+    color: #001E44; 
     margin-bottom: 5px;
 }
 
 
-/*
- * 3. Estilos de Botones (Azul y Oro)
- * Se asume que el código de botones del usuario está en el CSS
- * con la alta especificidad y los valores !important para corregir el error morado.
- */
 .action-buttons-bar {
     text-align: center;
     margin-top: 30px;
     padding: 20px 0;
 }
 .photo-credit {
-    position: absolute; /* Posicionamiento absoluto respecto al carrusel-slide */
-    bottom: 15px;      /* Distancia desde el borde inferior */
-    right: 15px;       /* Distancia desde el borde derecho */
-    z-index: 2;        /* Asegura que esté por encima de la imagen y el caption */
-    
-    /* Estilo sutil y legible */
-    color: rgba(255, 255, 255, 0.85); /* Blanco semi-transparente para que resalte */
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
+    position: absolute; 
+    bottom: 15px;      
+    right: 15px;       
+    z-index: 2;        
+
+    color: rgba(255, 255, 255, 0.85); 
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 5px 10px;
     border-radius: 3px;
-    font-size: 0.8em; /* Letra pequeña para no ser intrusivo */
+    font-size: 0.8em; 
+}
+.team-member .contact-email i {
+    margin-right: 5px; 
+    color: #00447c;    
 }
 .team-member .contact-email a {
-    color: #00447c;      /* Color de acento (ej. Azul UNAM) */
-    text-decoration: none; /* Quita el subrayado */
+    color: #00447c;      
+    text-decoration: none; 
     font-weight: normal;
 }
 
 .team-member .contact-email a:hover {
-    text-decoration: underline; /* Opcional: solo subraya al pasar el ratón */
+    text-decoration: underline; 
 }
-
-
-
-
-
