@@ -1,6 +1,7 @@
 let slideIndex = 1;
 showSlides(slideIndex);
-
+let autoSlideIndex = 0;
+carouselAuto();
 // Controles para avanzar/retroceder
 function plusSlides(n) {
   showSlides(slideIndex += n);
