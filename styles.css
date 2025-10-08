@@ -367,7 +367,7 @@ body {
 
 /* Estilo para el botón principal (UNAM/Capítulo) */
 .btn-chapter {
-    background-color: #001E44;
+    background-color: #f0f0f0;
     color: #FFC72C !important; /* ¡CLAVE! Fuerza el color de texto blanco */
     border: 2px solid #001E44;
 }
@@ -389,5 +389,6 @@ body {
     background-color: #001E44; /* Invierte los colores al pasar el ratón */
     color: #FFC72C;
 }
+
 
 
