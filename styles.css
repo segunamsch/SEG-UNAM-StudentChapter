@@ -368,27 +368,28 @@ body {
 /* Estilo para el botón principal (UNAM/Capítulo) */
 .btn-chapter {
     background-color: #f0f0f0;
-    color: #FFC72C !important; /* ¡CLAVE! Fuerza el color de texto blanco */
+    color: #FFC72C !important; 
     border: 2px solid #001E44;
 }
 
 /* Estilo para el botón secundario (SEG Global) */
 .btn-seg {
     background-color: #f0f0f0;
-    color: #001E44 !important; /* ¡CLAVE! Fuerza el color de texto del capítulo */
+    color: #FFC72C !important; 
     border: 2px solid #001E44;
 }
 
 /* Efecto al pasar el ratón (Hover) */
 .btn-chapter:hover {
-    background-color: #002e53; /* Un verde más claro al pasar el ratón */
+    background-color: #002e53; 
     color: #FFC72C;
 }
 
 .btn-seg:hover {
-    background-color: #001E44; /* Invierte los colores al pasar el ratón */
+    background-color: #002e53; 
     color: #FFC72C;
 }
+
 
 
 
