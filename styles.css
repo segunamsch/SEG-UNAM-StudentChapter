@@ -71,30 +71,7 @@ body {
     padding: 20px;
 }
 
-/* Banner principal */
-.hero-banner {
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 400px; /* Altura del banner */
-    overflow: hidden;
-}
-.hero-banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.6);
-}
-.banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-/* Secciones de contenido */
-.who-we-are, .news-banner {
+.news-banner {
     background-color: #f9f9f9;
     padding: 40px;
     margin: 20px 0;
@@ -388,6 +365,80 @@ body {
 .btn-seg:hover {
     background-color: #002e53; 
     color: #FFC72C;
+}
+
+/*
+ * 1. Estilos Generales de la Sección
+ */
+.who-we-are {
+    max-width: 900px; /* Limita el ancho para que las líneas de texto sean legibles */
+    margin: 50px auto; /* Centra la sección horizontalmente */
+    padding: 20px;
+    text-align: center; /* Alineación por defecto para títulos */
+}
+
+.who-we-are h2, .who-we-are h3 {
+    color: #001E44; /* Azul UNAM */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Párrafo Intro y Bloques de Texto (alineación a la izquierda) */
+.who-we-are .intro-text, 
+.unam-block p, 
+.call-to-action p {
+    text-align: justify; /* Justifica el texto para un bloque limpio */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+}
+
+/*
+ * 2. Bloque de Misión Distintivo
+ */
+.mission-block {
+    background-color: #f0f4ff; /* Fondo muy suavemente azul claro para destacar */
+    padding: 30px 20px;
+    margin: 40px 0;
+    border-radius: 8px;
+    text-align: left; /* Alineamos el contenido de la misión a la izquierda */
+}
+
+.mission-block h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.mission-list {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.mission-list li {
+    margin-bottom: 20px; /* Espacio vertical entre cada punto */
+    border-left: 4px solid #FFC72C; /* Línea vertical ORO UNAM como acento */
+    padding-left: 15px;
+    line-height: 1.5;
+}
+
+.mission-list li strong {
+    display: block; /* Título en negrita en su propia línea */
+    font-size: 1.1em;
+    color: #001E44; /* Azul UNAM para el título del punto */
+    margin-bottom: 5px;
+}
+
+
+/*
+ * 3. Estilos de Botones (Azul y Oro)
+ * Se asume que el código de botones del usuario está en el CSS
+ * con la alta especificidad y los valores !important para corregir el error morado.
+ */
+.action-buttons-bar {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
 }
 
 
