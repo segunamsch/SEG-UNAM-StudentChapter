@@ -353,29 +353,30 @@ body {
 
 /* Estilos base de los botones (<a>) */
 .btn {
-    display: inline-block; /* Permite ancho y margen, y que estén en línea */
-    text-decoration: none; /* Remueve el subrayado de los enlaces */
+    display: inline-block;
     font-weight: bold;
-    padding: 15px 30px; /* Espaciado interno generoso */
-    margin: 0 10px; /* Separación horizontal entre botones */
-    border-radius: 5px; /* Bordes ligeramente redondeados */
-    transition: background-color 0.3s ease; /* Transición suave para el hover */
+    padding: 15px 30px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
     text-transform: uppercase;
     font-size: 0.9em;
+
+    text-decoration: none !important; 
 }
 
 /* Estilo para el botón principal (UNAM/Capítulo) */
 .btn-chapter {
-    background-color: #004d40; /* Verde oscuro (casi azul), puedes usar el azul UNAM: #001e43 */
-    color: #ffffff;
+    background-color: #004d40;
+    color: #ffffff !important; /* ¡CLAVE! Fuerza el color de texto blanco */
     border: 2px solid #004d40;
 }
 
 /* Estilo para el botón secundario (SEG Global) */
 .btn-seg {
-    background-color: #f0f0f0; /* Fondo más claro o blanco */
-    color: #004d40; /* Texto del mismo color que el capítulo */
-    border: 2px solid #004d40; /* Borde para que se destaque */
+    background-color: #f0f0f0;
+    color: #004d40 !important; /* ¡CLAVE! Fuerza el color de texto del capítulo */
+    border: 2px solid #004d40;
 }
 
 /* Efecto al pasar el ratón (Hover) */
@@ -388,3 +389,4 @@ body {
     background-color: #004d40; /* Invierte los colores al pasar el ratón */
     color: #ffffff;
 }
+
