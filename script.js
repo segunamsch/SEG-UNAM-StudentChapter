@@ -36,10 +36,10 @@ function showSlides(n) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('/full-activities.json')
+  fetch('./full-activities.json')
       .then(response => {
         if (!response.ok) {
-          throw new Error('No se pudo cargar el archivo actividades.json');
+          throw new Error('No se pudo cargar el archivo full-activities.json');
         }
         return response.json();
       })
