@@ -36,7 +36,7 @@ function showSlides(n) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('actividades.json')
+  fetch('full-activities.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('No se pudo cargar el archivo actividades.json');
