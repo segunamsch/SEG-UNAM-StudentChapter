@@ -13,8 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(data => {
             
-            data.forEach(activity => {
-                if (data.length === 0) {
+            if (data.length === 0) {
                 container.innerHTML = '<p>No hay actividades para mostrar en este momento.</p>';
                 return;
             }
