@@ -26,12 +26,7 @@ body {
     height: 100px;
     margin-right: 15px;
 }
-.title-container h1 {
-    font-size: 1.5em;
-    margin: 0;
-    color: #00447c;
-}
-.title-container p {
+.tittle-container p { 
     font-size: 0.9em;
     margin: 0;
     color: #555;
@@ -71,15 +66,47 @@ body {
 .news-banner {
     background-color: #f9f9f9;
     padding: 40px;
-    margin: 20px 0;
+    margin: 20px auto; 
+    max-width: 1000px; 
     text-align: center;
 }
+
+#latest-activities-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
 .news-item {
     background-color: white;
     padding: 20px;
-    margin-top: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+    flex: 1 1 300px; 
+    text-align: left;
+    margin: 0;
+}
+
+.news-item p {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+.news-item strong {
+    color: #00447c;
+}
+
+.news-item a.read-more {
+    font-size: 0.8em;
+    padding: 8px 12px;
+    background-color: #00447c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .footer {
@@ -89,15 +116,16 @@ body {
     padding: 20px;
 }
 
-.team-section {
-    padding: 50px 20px;
-    text-align: center;
-    background-color: #f9f9f9;
-}
 .section-title {
     font-size: 2.5em;
     color: #00447c;
     margin-bottom: 40px;
+}
+
+.team-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
 }
 .team-grid {
     display: grid;
@@ -120,7 +148,7 @@ body {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 50%; 
+    border-radius: 50%;
     border: 3px solid #00447c;
     margin-bottom: 15px;
 }
@@ -138,23 +166,39 @@ body {
     font-size: 0.9em;
     color: #555;
 }
+.team-member .contact-email i {
+    margin-right: 5px;
+    color: #00447c;
+}
+.team-member .contact-email a {
+    color: #00447c;
+    text-decoration: none;
+    font-weight: normal;
+}
+.team-member .contact-email a:hover {
+    text-decoration: underline;
+}
 
 .activities-section {
     padding: 50px 20px;
     text-align: center;
     background-color: #f9f9f9;
 }
-.activities-grid {
+
+#full-activities-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
 .activity-card {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    overflow: hidden; 
+    overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .activity-card:hover {
@@ -206,7 +250,6 @@ body {
     color: #555;
     margin-bottom: 40px;
 }
-
 .contact-info a {
     color: #00447c;
     text-decoration: none;
@@ -222,30 +265,29 @@ body {
     font-size: 1.8em;
     margin-right: 15px;
     color: #00447c;
-
 }
 
 .carrusel-section {
-    padding: 20px 0; 
+    padding: 20px 0;
     background-color: #f0f0f0;
 }
 .carrusel-container {
-    max-width: 1000px; 
+    max-width: 1000px;
     position: relative;
     margin: auto;
     border-radius: 10px;
-    overflow: hidden; 
+    overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 .carrusel-slide {
-    display: none; 
+    display: none;
     position: relative;
 }
 .carrusel-slide img {
     width: 100%;
-    height: 450px; 
-    object-fit: cover; 
-    filter: brightness(0.6); 
+    height: 450px;
+    object-fit: cover;
+    filter: brightness(0.6);
 }
 .carrusel-caption {
     position: absolute;
@@ -277,7 +319,7 @@ body {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    background-color: rgba(0,0,0,0.5); 
+    background-color: rgba(0,0,0,0.5);
 }
 .next {
     right: 0;
@@ -315,11 +357,10 @@ body {
 }
 
 .action-buttons-bar {
-    text-align: center; 
-    margin-top: 30px; 
-    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
 }
-
 .btn {
     display: inline-block;
     font-weight: bold;
@@ -329,117 +370,75 @@ body {
     transition: background-color 0.3s ease;
     text-transform: uppercase;
     font-size: 0.9em;
-
-    text-decoration: none !important; 
+    text-decoration: none !important;
 }
 
-.btn-chapter {
+.btn-chapter, .btn-seg {
     background-color: #f0f0f0;
-    color: #FFC72C !important; 
+    color: #FFC72C !important;
     border: 2px solid #001E44;
 }
 
-.btn-seg {
-    background-color: #f0f0f0;
-    color: #FFC72C !important; 
-    border: 2px solid #001E44;
-}
-
-
-.btn-chapter:hover {
-    background-color: #002e53; 
+.btn-chapter:hover, .btn-seg:hover {
+    background-color: #002e53;
     color: #FFC72C;
 }
-
-.btn-seg:hover {
-    background-color: #002e53; 
-    color: #FFC72C;
-}
-
 
 .who-we-are {
-    max-width: 900px; 
-    margin: 50px auto; 
+    max-width: 900px;
+    margin: 50px auto;
     padding: 20px;
-    text-align: center; 
+    text-align: center;
 }
-
 .who-we-are h2, .who-we-are h3 {
-    color: #001E44; 
+    color: #001E44;
     margin-top: 40px;
     margin-bottom: 20px;
 }
-
-.who-we-are .intro-text, 
-.unam-block p, 
+.who-we-are .intro-text,
+.unam-block p,
 .call-to-action p {
-    text-align: justify; 
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
-    line-height: 1.6; 
+    line-height: 1.6;
 }
-
 .mission-block {
-    background-color: #f0f4ff; 
+    background-color: #f0f4ff;
     padding: 30px 20px;
     margin: 40px 0;
     border-radius: 8px;
-    text-align: left; 
+    text-align: left;
 }
-
 .mission-block h3 {
     text-align: center;
     margin-top: 0;
 }
-
 .mission-list {
     list-style: none;
     padding: 0 20px;
 }
-
 .mission-list li {
-    margin-bottom: 20px; 
-    border-left: 4px solid #FFC72C; 
+    margin-bottom: 20px;
+    border-left: 4px solid #FFC72C;
     padding-left: 15px;
     line-height: 1.5;
 }
-
 .mission-list li strong {
-    display: block; 
+    display: block;
     font-size: 1.1em;
-    color: #001E44; 
+    color: #001E44;
     margin-bottom: 5px;
 }
-
-
-.action-buttons-bar {
-    text-align: center;
-    margin-top: 30px;
-    padding: 20px 0;
-}
 .photo-credit {
-    position: absolute; 
-    bottom: 15px;      
-    right: 15px;       
-    z-index: 2;        
-
-    color: rgba(255, 255, 255, 0.85); 
-    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
     border-radius: 3px;
-    font-size: 0.8em; 
-}
-.team-member .contact-email i {
-    margin-right: 5px; 
-    color: #00447c;    
-}
-.team-member .contact-email a {
-    color: #00447c;      
-    text-decoration: none; 
-    font-weight: normal;
-}
-
-.team-member .contact-email a:hover {
-    text-decoration: underline; 
+    font-size: 0.8em;
 }
