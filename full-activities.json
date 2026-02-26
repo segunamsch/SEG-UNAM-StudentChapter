@@ -7,4 +7,12 @@
     "imagen": "assets/images/Activities/InscripcionSEG.jpeg",
     "link_texto": "Únete"
   }
+  {
+    "titulo": "Rally Cascos Rosas",
+    "resumen": "En el marco del 8M, te invitamos a participar en el rally "Cascos Rosas", una experiencia llena de juegos, preguntas y actividades dinámicas que pondrán a prueba tu ingenio, trabajo en equipo y conocimientos sobre la equidad de género en STEM.",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdh1_p3LLytxPO7px4Zml-1Vu___rElMKddk6VzOc2IoWzA-w/viewform",
+    "fecha": "26-feb-2026",
+    "imagen": "assets/images/Activities/rallyCascosR.png",
+    "link_texto": "Incríbete"
+  }
 ]
