@@ -22,7 +22,7 @@
     "fecha": "26-feb-2026",
     "imagen": "assets/images/Activities/destacadosPag.png",
     "link_texto": "Participa"
-  }
+  },
   {
     "titulo": "¡Vámonos a Hidalgo! 🚌✨",
     "resumen": "Tenemos lista la salida de campo: Minas de obsidiana, canteras de caolín y el Museo de Sitio Mina de Acosta.",
@@ -30,23 +30,23 @@
     "fecha": "02-may-2026",
     "imagen": "assets/images/Activities/260420-CerroNavajas.png",
     "link_texto": "Aparta tu lugar"
-  }
+  },
   {
     "titulo": "Earth Day Symposium 2026 — Join Us Online!",
-    "resumen": "This Earth Day, three SEG Student Chapters are uniting to host an inspiring global online symposium, and you’re invited! Whether you work in academia or industry, focus on mining, environmental geology, sustainability, circular economy, or are simply passionate about the future of critical metals, this event will offer fresh perspectives and forward looking insights. Leading experts in economic and environmental geology, invited by the three co hosting universities, will present the latest advances shaping our rapidly evolving world. ",
+    "resumen": "This Earth Day, three SEG Student Chapters are uniting to host an inspiring global online symposium, and you’re invited! Whether you work in academia or industry, focus on mining, environmental geology, sustainability, circular economy, or are simply passionate about the future of critical metals, this event will offer fresh perspectives and forward looking insights. Leading experts in economic and environmental geology, invited by the three co hosting universities, will present the latest advances shaping our rapidly evolving world.",
     "url": "https://lnkd.in/gehshwgb",
     "fecha": "22-abril-2026",
     "imagen": "assets/images/Activities/260420-Simposio.png",
     "link_texto": "Registration and Zoom link"
-  }
-   {
+  },
+  {
     "titulo": "Webinar: Geopolítica de los minerales críticos y situación de México",
     "resumen": "Impartido por el Dr. Luca Ferrari (Instituto de Geociencias-UNAM, Juriquilla).",
     "url": "https://www.youtube.com/watch?v=a5t2jdVnjsk",
     "fecha": "14-abril-2026",
     "imagen": "assets/images/Activities/260420-Geopolitica.png",
     "link_texto": "Ver en YouTube"
-  }
+  },
   {
     "titulo": "Webinar: Geopolítica de los minerales críticos y situación de México",
     "resumen": "El SEG UNAM Students' Chapter te invita a un webinar de alto nivel con la Dra. Paula Montoya, investigadora del prestigioso centro CODES de la Universidad de Tasmania. Exploraremos la relación tectonomagmática en el desarrollo de depósitos minerales a través del caso de estudio: Laramide eXploration Initiative (LAXI) project.",
@@ -55,5 +55,4 @@
     "imagen": "assets/images/Activities/260420-Tectonomagmatic.png",
     "link_texto": "Regístrate"
   }
-  
 ]
