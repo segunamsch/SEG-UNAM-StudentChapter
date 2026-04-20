@@ -1,43 +1,10 @@
-[
-  {
-    "titulo": "Inscripciones Abiertas 2025 | SEG Student Chapter UNAM",
-    "resumen": "El SEG Student Chapter UNAM te da la bienvenida a la convocatoria 2025 para nuevos miembros. Si eres estudiante de la UNAM y sientes una profunda pasión por el estudio, la exploración y la gestión de los yacimientos minerales, este es el espacio ideal para complementar tu formación académica.",
-    "url": "https://forms.gle/9ssWgHDdZcvQsxydA",
-    "fecha": "15-oct-2025",
-    "imagen": "assets/images/Activities/InscripcionSEG.jpeg",
-    "link_texto": "Únete"
-  },
-  {
-    "titulo": "Rally Cascos Rosas",
-    "resumen": "En el marco del 8M, te invitamos a participar en el rally Cascos Rosas, una experiencia llena de juegos, preguntas y actividades dinámicas que pondrán a prueba tu ingenio, trabajo en equipo y conocimientos sobre la equidad de género en STEM.",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdh1_p3LLytxPO7px4Zml-1Vu___rElMKddk6VzOc2IoWzA-w/viewform",
-    "fecha": "09-feb-2026",
-    "imagen": "assets/images/Activities/rallyCascosR.png",
-    "link_texto": "Incríbete"
-  },
-  {
-    "titulo": "Highlights para la página web",
-    "resumen": "Queremos que TU trabajo sea el protagonista de nuestra página web. Sube fotos de tu trabajo en campo o como estudiante de geología y podrás verlas en el carrusel de la página web del capítulo estudiantil.",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfGoNNvZQRUxio7Hb_zmvEan5GCydro3rasqymg8MzDpBDdgw/viewform",
-    "fecha": "26-feb-2026",
-    "imagen": "assets/images/Activities/destacadosPag.png",
-    "link_texto": "Participa"
-  },
-  {
-    "titulo": "¡Vámonos a Hidalgo! 🚌✨",
-    "resumen": "Tenemos lista la salida de campo: Minas de obsidiana, canteras de caolín y el Museo de Sitio Mina de Acosta.",
-    "url": "https://wa.me/5215568175629",
-    "fecha": "02-may-2026",
-    "imagen": "assets/images/Activities/260420-CerroNavajas.png",
-    "link_texto": "Aparta tu lugar"
-  },
-  {
-    "titulo": "Earth Day Symposium 2026 — Join Us Online!",
-    "resumen": "This Earth Day, three SEG Student Chapters are uniting to host an inspiring global online symposium, and you’re invited! Whether you work in academia or industry, focus on mining, environmental geology, sustainability, circular economy, or are simply passionate about the future of critical metals, this event will offer fresh perspectives and forward looking insights. Leading experts in economic and environmental geology, invited by the three co hosting universities, will present the latest advances shaping our rapidly evolving world.",
-    "url": "https://lnkd.in/gehshwgb",
+[{
+    "titulo": "Webinar: Geopolítica de los minerales críticos y situación de México",
+    "resumen": "El SEG UNAM Students' Chapter te invita a un webinar de alto nivel con la Dra. Paula Montoya, investigadora del prestigioso centro CODES de la Universidad de Tasmania. Exploraremos la relación tectonomagmática en el desarrollo de depósitos minerales a través del caso de estudio: Laramide eXploration Initiative (LAXI) project.",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLScy_ERw2Y_kMlm4qrE8TZQ4u7TuROouPxI6n92Sf3u2Vu0gUQ/viewform",
     "fecha": "22-abril-2026",
-    "imagen": "assets/images/Activities/260420-Simposio.png",
-    "link_texto": "Registration and Zoom link"
+    "imagen": "assets/images/Activities/260420-Tectonomagmatic.png",
+    "link_texto": "Regístrate"
   },
   {
     "titulo": "Webinar: Geopolítica de los minerales críticos y situación de México",
@@ -48,11 +15,43 @@
     "link_texto": "Ver en YouTube"
   },
   {
-    "titulo": "Webinar: Geopolítica de los minerales críticos y situación de México",
-    "resumen": "El SEG UNAM Students' Chapter te invita a un webinar de alto nivel con la Dra. Paula Montoya, investigadora del prestigioso centro CODES de la Universidad de Tasmania. Exploraremos la relación tectonomagmática en el desarrollo de depósitos minerales a través del caso de estudio: Laramide eXploration Initiative (LAXI) project.",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLScy_ERw2Y_kMlm4qrE8TZQ4u7TuROouPxI6n92Sf3u2Vu0gUQ/viewform",
+    "titulo": "Earth Day Symposium 2026 — Join Us Online!",
+    "resumen": "This Earth Day, three SEG Student Chapters are uniting to host an inspiring global online symposium, and you’re invited! Whether you work in academia or industry, focus on mining, environmental geology, sustainability, circular economy, or are simply passionate about the future of critical metals, this event will offer fresh perspectives and forward looking insights. Leading experts in economic and environmental geology, invited by the three co hosting universities, will present the latest advances shaping our rapidly evolving world.",
+    "url": "https://lnkd.in/gehshwgb",
     "fecha": "22-abril-2026",
-    "imagen": "assets/images/Activities/260420-Tectonomagmatic.png",
-    "link_texto": "Regístrate"
+    "imagen": "assets/images/Activities/260420-Simposio.png",
+    "link_texto": "Registration and Zoom link"
+  },
+  {
+    "titulo": "¡Vámonos a Hidalgo! 🚌✨",
+    "resumen": "Tenemos lista la salida de campo: Minas de obsidiana, canteras de caolín y el Museo de Sitio Mina de Acosta.",
+    "url": "https://wa.me/5215568175629",
+    "fecha": "02-may-2026",
+    "imagen": "assets/images/Activities/260420-CerroNavajas.png",
+    "link_texto": "Aparta tu lugar"
+  },
+   {
+    "titulo": "Highlights para la página web",
+    "resumen": "Queremos que TU trabajo sea el protagonista de nuestra página web. Sube fotos de tu trabajo en campo o como estudiante de geología y podrás verlas en el carrusel de la página web del capítulo estudiantil.",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfGoNNvZQRUxio7Hb_zmvEan5GCydro3rasqymg8MzDpBDdgw/viewform",
+    "fecha": "26-feb-2026",
+    "imagen": "assets/images/Activities/destacadosPag.png",
+    "link_texto": "Participa"
+  },
+   {
+    "titulo": "Rally Cascos Rosas",
+    "resumen": "En el marco del 8M, te invitamos a participar en el rally Cascos Rosas, una experiencia llena de juegos, preguntas y actividades dinámicas que pondrán a prueba tu ingenio, trabajo en equipo y conocimientos sobre la equidad de género en STEM.",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdh1_p3LLytxPO7px4Zml-1Vu___rElMKddk6VzOc2IoWzA-w/viewform",
+    "fecha": "09-feb-2026",
+    "imagen": "assets/images/Activities/rallyCascosR.png",
+    "link_texto": "Incríbete"
+  },
+  {
+    "titulo": "Inscripciones Abiertas 2025 | SEG Student Chapter UNAM",
+    "resumen": "El SEG Student Chapter UNAM te da la bienvenida a la convocatoria 2025 para nuevos miembros. Si eres estudiante de la UNAM y sientes una profunda pasión por el estudio, la exploración y la gestión de los yacimientos minerales, este es el espacio ideal para complementar tu formación académica.",
+    "url": "https://forms.gle/9ssWgHDdZcvQsxydA",
+    "fecha": "15-oct-2025",
+    "imagen": "assets/images/Activities/InscripcionSEG.jpeg",
+    "link_texto": "Únete"
   }
 ]
