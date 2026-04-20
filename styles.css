@@ -442,3 +442,51 @@ body {
     border-radius: 3px;
     font-size: 0.8em;
 }
+/* ===== AJUSTES GENERALES VERSIÓN MÓVIL ===== */
+html, body {
+    overflow-x: hidden;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-seg {
+        height: 40px;
+        margin: 10px 0;
+    }
+
+    .logo-seg-unam {
+        height: 70px;
+        margin: 10px 0;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
+
+    .social-media a {
+        font-size: 1.5em;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}
