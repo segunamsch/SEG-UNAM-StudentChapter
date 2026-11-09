@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('full-activities-list');
     
@@ -20,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
             
-            // 2. BUCLE ÚNICO Y CORRECTO
+            // 2. Generación de tarjetas
             data.forEach(activity => {
                 const activityCard = document.createElement('div');
                 activityCard.classList.add('activity-card');
@@ -32,15 +33,22 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h3>${activity.titulo}</h3>
                         <p class="date">${activity.fecha}</p>
                         <p class="description">${activity.resumen}</p>
-                        <a href="${activity.url}" class="read-more">${activity.link_texto || 'Detalles'}</a>
+                        <a href="${activity.url}"
+                           class="read-more"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            ${activity.link_texto || 'Detalles'}
+                        </a>
                     </div>
                 `;
+                
                 container.appendChild(activityCard);
             });
             
         })
         .catch(error => {
             console.error('Error al renderizar actividades completas:', error);
+            
             // Mensaje de error visible para el usuario
             container.innerHTML = `<p style="color: red;">Error al cargar la lista de actividades. Detalles: ${error.message}</p>`;
         });
